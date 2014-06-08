@@ -1,0 +1,63 @@
+.twitter{
+    background-color: #b0b0c4;
+    width: 48.125rem;
+    height: 21.875rem;
+    margin: 10rem auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+.vaguesO{
+    top: 20.2rem;
+    left: -0.5%;
+    
+    -webkit-animation: translateVaguesO 1s infinite alternate;
+    animation: translateVaguesO 1s infinite alternate;
+}
+
+.vaguesB{
+    top: 19.9rem;
+    left: -13%;
+    
+    -webkit-animation: translateVaguesB 2.5s infinite alternate;
+    animation: translateVaguesB 2.5s infinite alternate;
+}
+
+.baleine{
+    top: 2rem;
+    right: 30%;
+    
+    -webkit-animation: translateVaguesO 2s infinite alternate;
+    animation: translateVaguesO 2s infinite alternate;
+}
+
+/*////////////////////////////////////////////////////////////////*/
+
+.oiseau{
+    position: relative;
+    width: 6%;
+    height: 1.5rem;
+    
+    -webkit-animation: translateVaguesO 2s infinite alternate;
+    animation: translateVaguesO 2s infinite alternate;
+}
+
+.oiseauInv{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-animation: translateVaguesOinv 2s infinite alternate;
+    animation: translateVaguesOinv 2s infinite alternate;
+    
+}
+
+.aile{
+    top: -0.5rem;
+    left: 24%;
+    position: absolute;
+    
+    -webkit-animation: rotateAile 0.1s infinite alternate;
+    animation: rotateAile 0.1s infinite alternate;
+}
+
